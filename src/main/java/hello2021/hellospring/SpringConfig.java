@@ -1,5 +1,6 @@
 package hello2021.hellospring;
 
+import hello2021.hellospring.aop.TimeTraceAop;
 import hello2021.hellospring.repository.*;
 import hello2021.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
