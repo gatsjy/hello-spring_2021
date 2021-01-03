@@ -38,10 +38,6 @@ class MemoryMemberRepositoryTest {
     }
 
     @Test
-    void findById() {
-    }
-
-    @Test
     void findByName() {
         Member member1 = new Member();
         member1.setName("spring1");
